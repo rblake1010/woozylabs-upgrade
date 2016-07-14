@@ -4,6 +4,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Biryani:400,700,800,600,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -2613,6 +2615,23 @@ html {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+.zone {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  margin: 0 auto; }
+  .zone::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media (max-width: 80.625rem) {
+    .zone {
+      padding: 0 2rem; } }
+  @media (max-width: 37.5rem) {
+    .zone {
+      padding: 0 1.5rem; } }
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2621,16 +2640,119 @@ html {
   margin: 0px;
   padding: 0px; }
 
+html {
+  font-size: 100%;
+  min-width: 20rem; }
+  @media (max-width: 900px) {
+    html {
+      font-size: 85%; } }
+  @media (max-width: 500px) {
+    html {
+      font-size: 75%; } }
+
 body {
-  font-size: 14px;
-  line-height: 1.6;
-  color: #666;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.618em;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  font-family: "Montserrat", sans-serif; }
 
 a {
-  color: red;
+  color: #fff;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: #40a6ff; }
+    color: #fff; }
+
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  font-family: "Biryani", sans-serif;
+  line-height: 1.313em; }
+
+.huge, h1 {
+  font-size: 4.3em; }
+
+.large, h2 {
+  font-size: 2.6em; }
+
+.bigger, h3 {
+  font-size: 1.11em; }
+
+p {
+  font-family: "Montserrat", sans-serif; }
+
+header .logo-title {
+  float: left;
+  margin: 1.5625rem 0 0; }
+  header .logo-title .logo {
+    width: 10.9375rem; }
+    @media (max-width: 31.25rem) {
+      header .logo-title .logo {
+        width: 8.375rem; } }
+
+header nav {
+  float: right;
+  margin: 2.80625rem 0 0;
+  font-size: 18px;
+  font-size: 1.125rem; }
+  header nav ul {
+    float: left; }
+    header nav ul li {
+      display: inline-block;
+      padding: 0 1.90625rem 0; }
+  header nav > a {
+    color: yellow;
+    float: right;
+    margin: 0 4.25rem; }
+  @media (max-width: 56.25rem) {
+    header nav {
+      display: none; } }
+
+header .mobileMenu {
+  display: none;
+  float: right;
+  margin: 1.75rem 0;
+  cursor: pointer; }
+  @media (max-width: 56.25rem) {
+    header .mobileMenu {
+      display: block; } }
+  @media (max-width: 31.25rem) {
+    header .mobileMenu {
+      width: 3.3125rem;
+      margin: 2rem 0; } }
+
+header h1 {
+  margin: 4.6875rem 0 0;
+  margin: 1.3em;
+  letter-spacing: 0.01875rem;
+  text-align: center; }
+
+section.what_section {
+  padding: 8.2875rem 0; }
+  section.what_section .zone {
+    display: flex;
+    justify-content: space-around; }
+    section.what_section .zone .region-left {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      section.what_section .zone .region-left:last-child {
+        margin-right: 0; }
+      section.what_section .zone .region-left h2 {
+        text-transform: uppercase; }
+    section.what_section .zone .region-right {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      section.what_section .zone .region-right:last-child {
+        margin-right: 0; }
+      section.what_section .zone .region-right .snippet {
+        display: flex;
+        margin-bottom: 4.04375rem; }
+        section.what_section .zone .region-right .snippet .blurb {
+          margin-left: 5.39375rem;
+          align-self: center; }

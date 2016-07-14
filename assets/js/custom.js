@@ -26,6 +26,9 @@ $(document).ready(function(){
 	$(window).resize(function(){
 		responsive();
 	});
+
+
+  jQuery("header h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '78px' });
 	
 });
 

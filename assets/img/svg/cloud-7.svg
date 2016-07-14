@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="111px" height="49px" viewBox="0 0 111 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="218" height="54"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Des_1" transform="translate(-211.000000, -1277.000000)">
+            <g id="cloud-7" transform="translate(163.000000, 1271.970659)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Page-1-Copy" opacity="0.15" mask="url(#mask-2)" stroke="#000000">
+                    <g transform="translate(48.984777, 5.741828)" id="Stroke-1">
+                        <path d="M90.3635948,31.2247573 C93.6090532,22.2873736 91.5220692,11.986998 85.0830568,5.89232445 C74.3943827,-4.22370916 53.8345267,-0.753951622 46.2074834,12.0183148 C44.4975262,10.7037216 42.6340189,9.65105051 40.7452804,8.94642282 C30.25341,5.03182458 16.0244325,10.6588816 13.9367276,20.6539186 C13.3578509,23.4226071 13.7738059,26.2525058 14.9041655,28.9066034 C5.71711059,31.8624809 -0.360013748,40.0660554 0.016292172,48.1408039 C0.562007845,59.8283708 14.3930526,66.300981 24.247654,65.9557847 C25.9071487,65.8981333 77.0768239,65.9600551 84.5676186,66.4646824 C95.8906781,67.2276732 108.133597,59.3878005 108.79898,50.6852928 C109.401647,42.7920392 100.500786,33.9144422 90.3635948,31.2247573 L90.3635948,31.2247573 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,54 @@
+header{
+	.logo-title{
+		float: left;
+		margin:1.5625rem 0 0;
+		.logo{
+			width: 10.9375rem;
+			@media (max-width: 31.25rem){
+				width: 8.375rem;
+			}
+		}
+	}
+	nav{
+		float: right;
+		margin:2.80625rem 0 0;
+		@include fontSize(18px);
+		ul{
+			float: left;
+			li{
+				display: inline-block;
+				padding: 0 1.90625rem 0;
+				a{
+
+				}
+			}
+		}
+		&> a{
+			color:yellow;
+			float: right;
+			margin:0 4.25rem;
+		}
+		@media (max-width:56.25rem){
+			display: none;
+		}
+	}
+	.mobileMenu{
+		display: none;
+		float: right;
+		margin:1.75rem 0;
+		cursor: pointer;
+		@media (max-width:56.25rem){
+			display: block;
+		}
+		@media (max-width: 31.25rem){
+			width: 3.3125rem;
+			margin:2rem 0;
+		}
+	}
+	h1{
+		margin:4.6875rem 0 0;
+		margin: 1.3em;
+		letter-spacing: 0.01875rem;
+		text-align: center;
+	}
+}

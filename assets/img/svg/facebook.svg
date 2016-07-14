@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="24.0008 48 0 48 0 0 24.0008 0 48.0016 0 48.0016 48 24.0008 48"></polygon>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Des_1" transform="translate(-638.000000, -3093.000000)">
+            <g id="facebook" filter="url(#filter-1)" transform="translate(642.034947, 3094.731308)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M30.4526,24 L25.9996,24 L25.9996,39 L19.9996,39 L19.9996,24 L16.9996,24 L16.9996,18 L19.9746,18 L19.9746,15.288 C19.9746,12.834 21.1436,9 26.2886,9 L30.9236,9.019 L30.9236,14.159 L27.5576,14.159 C27.0106,14.159 26.2316,14.432 26.2316,15.601 L26.2316,18 L30.9996,18 L30.4526,24 Z M24.0036,0 C10.7456,0 -0.0004,10.744 -0.0004,24 C-0.0004,37.254 10.7456,48 24.0036,48 C37.2556,48 48.0016,37.254 48.0016,24 C48.0016,10.744 37.2556,0 24.0036,0 L24.0036,0 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

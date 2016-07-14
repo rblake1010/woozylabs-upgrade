@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="129px" height="116px" viewBox="0 0 129 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble-2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.25">
+        <g id="Home_Des_1" transform="translate(-1035.000000, -280.000000)">
+            <g id="bubble-2" transform="translate(1035.331778, 280.690224)">
+                <path d="M127.902896,51.3951347 C127.902896,19.2109506 96.4904251,0.177476396 64.306241,0.177476396 C32.1220568,0.177476396 0.177369953,19.7325225 0.177369953,51.9167067 C0.177369953,80.0964954 24.6671257,98.339451 52.3650812,102.442839 L61.7068965,113.741791 C62.741525,114.993564 64.4194256,114.993564 65.4540541,113.741791 L74.6276891,102.6465 C102.885181,98.9305659 127.902896,80.1170745 127.902896,51.3951347 L127.902896,51.3951347 Z" id="Stroke-1" stroke="#090909"></path>
+                <text id="2-Reports-of-Flu" font-family="Avenir-Light, Avenir" font-size="14.332656" font-weight="300" fill="#000000">
+                    <tspan x="13.9626947" y="46.3384081">2 Reports of Flu</tspan>
+                </text>
+                <text id="in-Richmond" font-family="Avenir-Light, Avenir" font-size="14.332656" font-weight="300" fill="#000000">
+                    <tspan x="24.3395376" y="63.5375953">in Richmond</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="31px" viewBox="0 0 15 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_Des_1" transform="translate(-104.000000, -1472.000000)" fill="#FFFFFF">
+            <g id="arrow-left" transform="translate(111.000000, 1487.703643) rotate(-180.000000) translate(-111.000000, -1487.703643) translate(103.000000, 1471.703643)">
+                <path d="M22.7289916,9.40218084 C22.2528038,8.83198643 21.4067449,8.75308809 20.8343123,9.22983552 L7.93359375,19.9857501 L-4.96712476,9.22983552 C-5.53731917,8.75532634 -6.38561625,8.83198643 -6.86180413,9.40218084 C-7.33855157,9.97293482 -7.26189147,10.8206723 -6.69169706,11.2974198 L7.07242672,22.7706938 C7.32143213,22.9782916 7.62751294,23.0829298 7.93359375,23.0829298 C8.23967456,23.0829298 8.54575537,22.9782916 8.79476078,22.7706938 L22.5588846,11.2974198 C23.129079,10.8206723 23.2057391,9.97069657 22.7289916,9.40218084 L22.7289916,9.40218084 Z" id="Fill-19" transform="translate(7.933594, 16.000348) rotate(-90.000000) translate(-7.933594, -16.000348) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
