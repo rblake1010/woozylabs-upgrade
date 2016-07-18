@@ -5,17 +5,20 @@ header(role="banner")
 
 		nav(role="navigation")
 			ul
-				li: a(href="#" style="color:#000") Home
-				li: a(href="#" style="color:#000") About
-				li: a(href="#" style="color:#000") Blog
+				li.current-menu-item: a(href="#") Home
+				li: a(href="#") About
+				li: a(href="#") Blog
 
 			a.download(href="#") Download
 
 		img.mobileMenu(src="/assets/img/mobileMenu.png")
 		div(style="clear:both")
-		h1 Do you Woozy?
+		h1.woozy Do you Woozy?
 
 		.report
-			img.listeria(src="/assets/img/listeria.png")
-			img.report(src="/assets/img/report.png")
-			img.flu(src="/assets/img/flu.png")
+			
+
+			img.listeria(src="/assets/img/header-graphic-left.png")
+			img.phones(src="/assets/img/phones.png")
+			//include flu.html
+			img.recall(src="/assets/img/header-graphic-right.png")

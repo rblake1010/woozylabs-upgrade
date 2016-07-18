@@ -1,0 +1,24 @@
+section.blog_section{
+	background: linear-gradient(to bottom, #ec4f4f, #ec6c4f);
+	text-align:center;
+	padding: 4em 0;
+	.zone{
+		.blog-title{
+			margin-bottom: 2.3875rem;
+			color: $white;
+		}
+		.slider{
+				h2{
+				color: $white;
+				margin-bottom: 2.125rem; 
+			}
+		}
+		a.blog{
+			background:#fff;
+			color:#ec4f4f;
+			padding: 0.7375rem 1.9rem;
+			border-radius: 6.25rem;
+			font-weight:bold;
+		}
+	}
+}

@@ -1,7 +1,7 @@
-section.what_section{
-	@media (max-width:42.5rem){
-		padding:8.2875rem 0 ;
-	}
+section.who_section{
+	box-shadow: 0 6px 10px -5px rgba(6, 6, 6, 0.4);
+	-webkit-box-shadow: 0 6px 10px -5px rgba(6, 6, 6, 0.4);
+	position:relative;
 	.zone{
 		display: flex;
 		justify-content: space-around;
@@ -10,10 +10,9 @@ section.what_section{
 		}
 		.region-left{
 			@include span-columns(4);
-			padding:8.2875rem 0 0;
+			padding: 8.2875rem 0 0;
 			@media (max-width: 42.5rem){
 				@include span-columns(12);
-				padding:0;
 			}
 			&.left-side{
 				display: flex;
@@ -54,18 +53,16 @@ section.what_section{
 		}
 		.region-right{
 			@include span-columns(7);
-			padding:8.2875rem 0;
+			padding: 8.2875rem 0;
 			@media (max-width: 42.5rem){
 				@include span-columns(12);
-				padding:0;
 			}
 			.snippet{
 				display: flex;
 				margin-bottom: 1.875rem;
-				//margin-bottom: 4.04375rem; // 64.7px
-				@media (max-width:42.5rem){
-					margin-bottom: 0;
-				}
+				@media (max-width: 500px){
+						margin-bottom: 0;
+					}
 				img{
 						width: 7.8125rem;
 					@media (max-width: 500px){

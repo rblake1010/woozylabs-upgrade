@@ -7,41 +7,53 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 	</head>
 	<body>
+		<div class="navigationwrap">
+			<div class="navigation">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Download</a></li>
+				</ul>
+			</div>
+		</div>
 		<header role="banner">
 			<div class="zone">
 				<div class="logo-title"><img class="logo" src="/assets/img/svg/logo.svg"></div>
 				<nav role="navigation">
 					<ul>
-						<li><a href="#" style="color:#000">Home</a></li>
-						<li><a href="#" style="color:#000">About</a></li>
-						<li><a href="#" style="color:#000">Blog</a></li>
+						<li class="current-menu-item"><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Blog</a></li>
 					</ul><a class="download" href="#">Download</a>
 				</nav><img class="mobileMenu" src="/assets/img/mobileMenu.png">
 				<div style="clear:both"></div>
-				<h1>Do you Woozy?</h1>
-				<div class="report"><img class="listeria" src="/assets/img/listeria.png"><img class="report" src="/assets/img/report.png"><img class="flu" src="/assets/img/flu.png"></div>
+				<h1 class="woozy">Do you Woozy?</h1>
+				<div class="report"><img class="listeria" src="/assets/img/header-graphic-left.png"><img class="phones" src="/assets/img/phones.png">
+					<!--include flu.html--><img class="recall" src="/assets/img/header-graphic-right.png">
+				</div>
 			</div>
 		</header>
 		<main role="main">
 			<section class="what_section" role="region">
 				<div class="zone">
-					<div class="region-left">
-						<h2>What is Woozy</h2>
+					<div class="region-left left-side">
+						<h2>What is Woozy</h2><img class="what" src="/assets/img/header-graphic-left.png">
 					</div>
 					<div class="region-right">
-						<div class="snippet"><img src="/assets/img/track.png">
+						<div class="snippet"><img src="/assets/img/svg/track.svg">
 							<div class="blurb">
 								<h3>Track Sickness</h3>
 								<p>According to the research firm Frost &amp; Sullivan. the estimated size of the North</p>
 							</div>
 						</div>
-						<div class="snippet"><img src="/assets/img/recalls.png">
+						<div class="snippet"><img src="/assets/img/svg/recalls.svg">
 							<div class="blurb">
 								<h3>Recieve Recalls</h3>
 								<p>According to the research firm Frost &amp; Sullivan. the estimated size of the North</p>
 							</div>
 						</div>
-						<div class="snippet"><img src="/assets/img/learn.png">
+						<div class="snippet"><img src="/assets/img/svg/learn.svg">
 							<div class="blurb">
 								<h3>Learn about Diseases</h3>
 								<p>According to the research firm Frost &amp; Sullivan. the estimated size of the North</p>
@@ -50,33 +62,33 @@
 					</div>
 				</div>
 			</section>
-			<section role="region">
+			<section class="blog_section" role="region">
 				<div class="zone">
-					<h3>On the Blog</h3>
+					<h3 class="blog-title">On the Blog</h3>
 					<div class="slider">
 						<h2>What Causes an Ear Infection</h2>
 					</div><a class="blog" href="#">Visit Blog</a>
 				</div>
 			</section>
-			<section role="region">
+			<section class="who_section" role="region">
 				<div class="zone">
-					<div class="region-left">
-						<h2>Who Woozies</h2>
+					<div class="region-left left-side">
+						<h2>Who Woozies?</h2><img class="what" src="/assets/img/header-graphic-left.png">
 					</div>
 					<div class="region-right">
-						<div class="snippet"><img src="/assets/img/track.png">
+						<div class="snippet"><img src="/assets/img/svg/parents.svg">
 							<div class="blurb">
 								<h3>Parents</h3>
 								<p>According to the research firm Frost &amp; Sullivan. the estimated size of the North</p>
 							</div>
 						</div>
-						<div class="snippet"><img src="/assets/img/recalls.png">
+						<div class="snippet"><img src="/assets/img/svg/teachers.svg">
 							<div class="blurb">
 								<h3>Teachers</h3>
 								<p>According to the research firm Frost &amp; Sullivan. the estimated size of the North</p>
 							</div>
 						</div>
-						<div class="snippet"><img src="/assets/img/diseases.png">
+						<div class="snippet"><img src="/assets/img/svg/schooladmin.svg">
 							<div class="blurb">
 								<h3>School Administrators</h3>
 								<p>According to the research firm Frost &amp; Sullivan. the estimated size of the North</p>
@@ -85,19 +97,19 @@
 					</div>
 				</div>
 			</section>
-			<section role="region">
+			<section class="contact_section" role="region">
 				<div class="zone">
-					<h1>Contact Woozy</h1>
+					<h2>Contact Woozy</h2>
 				</div>
 			</section>
 		</main>
-		<footer role="contentinfo">
+		<footer class="footer_section" role="contentinfo">
 			<div class="zone"> 
 				<div class="region-left">
-					<h3>Download</h3><img src="/assets/img/ios.png"><img src="/assets/img/google.png">
+					<h3>Download</h3><a href="#"><img src="/assets/img/appstore.png"></a><a href="#"><img src="/assets/img/googleplay.png"></a>
 				</div>
 				<div class="region-middle">
-					<h3>Social</h3><img src="/assets/img/pinterest.png"><img src="/assets/img/twitter.png"><img src="/assets/img/facebook.png"><img src="/assets/img/instagram.png">
+					<h3>Social</h3><a href="#"><img src="/assets/img/pinterest.png"></a><a href="#"><img src="/assets/img/twitter.png"></a><a href="#"><img src="/assets/img/facebook.png"></a><a href="#"><img src="/assets/img/instagram.png"></a>
 				</div>
 				<div class="region-right">
 					<h3>Awards</h3><img src="/assets/img/w3.png"><img src="/assets/img/gd.png"><img src="/assets/img/gd.png">
@@ -106,6 +118,8 @@
 		</footer>
 	</body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="assets/js/jquery.fittext.js"></script>
+	<script src="assets/js/jquery.lazylinepainter-1.7.0.min.js"></script>
+	<script src="assets/js/tweenmax.min.js"></script>
+	<script src="assets/js/svgdata.js"></script>
 	<script src="assets/js/custom.js"></script>
 </html>

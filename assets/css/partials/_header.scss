@@ -1,4 +1,8 @@
 header{
+	/*background: $downy;*/
+	background-image: linear-gradient(359deg, #5eccc4, #5eccc4 38%, #62d7b5);
+	/*box-shadow: 0 6px 6px -5px rgba(6, 6, 6, 0.50);*/
+	overflow:hidden;
 	.logo-title{
 		float: left;
 		margin:1.5625rem 0 0;
@@ -17,16 +21,33 @@ header{
 			float: left;
 			li{
 				display: inline-block;
-				padding: 0 1.90625rem 0;
+				padding: 0 1.65625rem 0;
+				&.current-menu-item{					
+					a{
+						opacity: 1;
+						border-bottom:2px solid $white;
+					}
+				}
 				a{
-
+					color: $white;
+					font-weight:bold;
+					opacity: 0.67;
+					&:hover{
+						opacity: 1;
+					}
 				}
 			}
-		}
+		} 
 		&> a{
-			color:yellow;
+			color:$white;
 			float: right;
-			margin:0 4.25rem;
+			margin:0 2.25rem;
+			font-weight: bold;
+			background: $burnt-sienna;
+			padding:0.4875rem 1.7125rem;
+			border-radius:100px;
+			position:relative;
+			top:-10px;
 		}
 		@media (max-width:56.25rem){
 			display: none;
@@ -47,8 +68,67 @@ header{
 	}
 	h1{
 		margin:4.6875rem 0 0;
-		margin: 1.3em;
+		margin: 1.0em 0 0.5em;
 		letter-spacing: 0.01875rem;
 		text-align: center;
+		color:$white;
+		letter-spacing: 0.01875rem;
+		animation-delay: 0.7s;
+		-webkit-animation-delay: 0.7s;
+	}
+	.report{
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+		-ms-flex-align:end;
+		align-items:flex-end;
+		max-width: 61.25rem;
+		margin: 0 auto;
+		.phones{
+			animation-delay: 0.7s;
+			-webkit-animation-delay: 0.7s;
+			@media (max-width: 990px){
+				margin:0 10px;
+			}
+			@media (max-width: 900px){
+				width: 273px;
+			}
+			@media (max-width: 485px){
+				width: 145px;
+			}
+		}
+		.listeria{
+			animation-duration: 1s;
+			-webkit-animation-duration: 1s;
+			visibility: hidden;
+			@media (max-width: 900px){
+				width: 200px;
+			}
+			@media (max-width: 695px){
+				display: none;
+			}
+		}
+		.recall{
+			animation-duration: 1s;
+			-webkit-animation-duration: 1s;
+			visibility: hidden;
+			@media (max-width: 900px){
+				width: 143px;
+			}
+			@media (max-width: 695px){
+				display: none;
+			}
+		}
+		#listeria{
+			width:264px; 
+			height:280px;
+			svg{
+				width:264px; 
+				height:280px;
+
+				/*opacity: 0.3;*/
+			}
+		}
 	}
 }
