@@ -3,7 +3,7 @@
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
  font-weight: 800;
- font-family: $secondary-font;
+ font-family: $primary-font;
  line-height:1.313em;
 }
 
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .huge, h1{
-	font-size:4.3em;
+	font-size:3.3em;
 	@media(max-width: 900px){
 		font-size:2.8em;
 	}
@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .large, h2{
-  font-size: 2.6em;
+  font-size: 2.9375rem;
   color:$dove-gray;
   @media(max-width: 900px){
-		font-size:2.0em;
+		font-size:2.0em !important;
   }
   @media(max-width: 500px){
 		font-size:1.5em;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 // Basic Text Style
 
 p{  
-  font-family: $primary-font;
+  font-family: $secondary-font;
   color:$dove-gray;
 }
 

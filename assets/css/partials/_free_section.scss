@@ -1,0 +1,44 @@
+section.free_section{
+
+	.zone{
+		display: flex;
+		justify-content: space-around; 
+		align-items: flex-end;
+
+		.region-left{
+			@media (max-width: 430px){
+				display: none;
+			}
+			img{
+				display: block;
+			}
+		}
+		.region-middle{
+			align-self:center;
+			text-align: center;
+			h2{
+				font-size: 3.75rem;
+				font-weight: 300;
+				margin-bottom: 2.9875rem;
+				@media (max-width: 750px){
+					font-size: 2.75rem;
+				}
+				@media (max-width: 680px){
+					margin-bottom: 1.9875rem;
+				}
+			}
+			img{
+				display: inline-block;
+				margin-right: 8px
+			}
+		}
+		.region-right{
+			@media (max-width: 430px){
+				display: none;
+			}
+			img{
+				display: block;
+			}
+		}
+	}
+}

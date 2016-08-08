@@ -2,7 +2,10 @@ footer.footer_section{
 	padding: 3.5em 0;
 	background: $tundora;
 	.zone{
-		
+		@media (max-width:900px){
+			display: flex;
+			flex-direction: column;
+		}
 		h3{
 			margin-bottom:0.83em;
 			color: $white;
@@ -14,12 +17,21 @@ footer.footer_section{
 			@include span-columns(4);
 			position:relative;
 			padding-left: 3em;
+			padding-right:1em;
 			@media (max-width:900px){
 				@include span-columns(12);
+				order:3;	
 				padding-left:0;
 			}
 			@media (max-width:500px){
 				text-align: center;
+			}
+			.copyright{
+				font-size: 18px;
+				font-weight:300;
+				color:$silver-chalice;
+				margin-top: 25px;
+				display: block;
 			}
 			img{
 				display: block;
@@ -49,6 +61,7 @@ footer.footer_section{
 			position:relative;
 			@media (max-width:900px){
 				@include span-columns(12);
+				margin-bottom: 1.25rem;
 				padding: 0; 
 			}
 			@media (max-width:500px){
@@ -74,9 +87,10 @@ footer.footer_section{
 		}
 		.region-right{
 			@include span-columns(4);
-			padding-left: 6em;
+			padding-left: 3em;
 			@media (max-width:900px){ 
 				@include span-columns(12);
+				margin-bottom: 1.25rem;
 				padding: 0;
 			}
 			@media (max-width:500px){
@@ -84,7 +98,11 @@ footer.footer_section{
 			}
 			img{
 				display: inline-block;
-			} 
+				margin-right: 10px;
+				@media (max-width:500px){
+					width: 64.95px;
+				}
+			} 			
 		}
 	}
 }

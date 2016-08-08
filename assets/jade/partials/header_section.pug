@@ -1,24 +1,23 @@
 header(role="banner")
 	.zone
 		.logo-title
-			img.logo(src="/assets/img/svg/logo.svg")
+			a(href="http://woozylabs.com"): img.logo(src="/assets/img/svg/logo.svg")
 
 		nav(role="navigation")
 			ul
-				li.current-menu-item: a(href="#") Home
+				li.current-menu-item: a(href="http://woozylabs.com") Home
 				li: a(href="#") About
-				li: a(href="#") Blog
+				li: a(href="http://blog.woozylabs.com/") Blog
 
-			a.download(href="#") Download
+			//a.download(href="#") Download
 
 		img.mobileMenu(src="/assets/img/mobileMenu.png")
 		div(style="clear:both")
-		h1.woozy Do you Woozy?
+		.intro
+			h1.woozy Woozy is your real-time Community Health Tracker.
+			p Recieve sickness trends, recall alerts, and community health data within your community all in one place
+			a(href="https://itunes.apple.com/kn/app/woozy-labs-unite-against-germs/id969894256?mt=8"): img.apple(src="/assets/img/apple.png")
+			a(href="http://play.google.com/store/apps/details?id=com.metrostarsystems.woozy"): img.android(src="/assets/img/android.png")
+	img.down(src="/assets/img/down-arrow.png")
 
-		.report
-			
 
-			img.listeria(src="/assets/img/header-graphic-left.png")
-			img.phones(src="/assets/img/phones.png")
-			//include flu.html
-			img.recall(src="/assets/img/header-graphic-right.png")

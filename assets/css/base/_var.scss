@@ -3,11 +3,14 @@
 //
 
 // Colors
-$downy: #5ECCC4;
+$downy: #5eccc4;
 $white: #fff;
 $burnt-sienna: #ec4f4f;
 $dove-gray: #646464;
 $tundora: #4e4e4e;
+$wild-sand: #f5f5f5;
+$silver-chalice: #a9a9a9;
+
 
 
 
@@ -30,10 +33,12 @@ $secondary-font: 'Biryani', sans-serif;
 	margin: 0 auto;
 	@include clearfix;
 	@media (max-width: 80.625rem){
-		padding: 0 2rem;
+		padding-left:2rem;
+		padding-right:2rem;
 	}
 	@media (max-width: 37.5rem){
-		padding: 0 1.5rem;
+		padding-left:1.5rem;
+		padding-right:1.5rem;
 	}
 }
 

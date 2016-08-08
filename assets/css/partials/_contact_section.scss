@@ -1,12 +1,29 @@
 section.contact_section{
 	padding: 4em 0;
-	height:613px;
-	background: linear-gradient(to top, #5eccc4, #5eccc4 3%, #62d7b5);
-	
+	color:$white;	
+	text-align:center;
 	.zone{
 		h2{
 			text-align: center;
-			color:$white;
+			font-weight: 300;
+			margin-bottom: 2.125rem;
+		}
+		p{
+			font-size: 1.5625rem;
+			font-weight: 300;
+			@media (max-width: 900px){
+				font-size: 1.20em;
+			}	
+		}
+		a{
+			margin-top: 3.75rem;
+			background:$downy;  
+			color:$white; 
+			padding: 1.05rem 1.9rem;
+			border-radius: 6.25rem;
+			font-weight:bold;
+			display: inline-block;
+			font-size: 1.5625rem;
 		}
 	}
 }

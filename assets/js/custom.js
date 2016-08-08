@@ -11,19 +11,20 @@
 
 $(document).ready(function(){ 
 
-TweenLite.to('.circle', 1, {drawSVG:0, delay:1})
+  $( window ).scroll(function() {
 
+  var scrollPosition = $(document).scrollTop();
+  
+   if(scrollPosition <=0){
+      $('.down').show();
+   }
 
-$('.phones').addClass('animated fadeInUp');
-$('.phones').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', flipIn);
+ });
 
-$('.woozy').addClass('animated fadeInDown');
-
-function flipIn(){
-  $('.listeria, .recall').css('visibility', 'visible')
-  $('.listeria, .recall').addClass('animated flipInY');
-}
-
+ $('.down').click(function() {
+ $("html, body").animate({ scrollTop: $('.what_section').offset().top }, 1000); 
+ $(this).hide();   
+});
 
  // Device
   function responsive(){ 			
@@ -58,29 +59,20 @@ function flipIn(){
     $('.navigationwrap').toggleClass('activeNav');      
   });
 
-//jQuery(".what_section h2").fitText(1.2, { minFontSize: '18px', maxFontSize: '48px' });
-//  jQuery("header h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '78px' });
 
- 
- 
-/* 
- Setup and Paint your lazyline! 
- */ 
- 
- $('#listeria').lazylinepainter({
-    "svgData": pathObj,
-    "strokeWidth": 1,
-    "strokeColor": "#5f9ea0",
-    "strokeOpacity": 1,
-    "drawSequential": false,
-    "delay": 3000,
-    "speedMultiplier":1
+ // Social Icons
+$('.social img').mouseover(function() {
+var currentHover = $(this).attr('class');
+var newImage = currentHover + '-hover.png';
+$(this).attr('src', '/assets/img/' + newImage )
+  
+  }).mouseleave(function() {
+  var leavingHover = $(this).attr('class');
+  $(this).attr('src', '/assets/img/' + leavingHover + '.png');
 });
 
- $('#listeria').lazylinepainter('paint');
 
- TweenLite.to('.circle', 1, {drawSVG:0, delay:1})
-	
+
 });
 
  

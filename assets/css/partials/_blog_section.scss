@@ -1,8 +1,22 @@
 section.blog_section{
-	background: linear-gradient(to bottom, #ec4f4f, #ec6c4f);
+	background: url(/assets/img/cleaning-banner.png) no-repeat;
+	background-size:cover;
 	text-align:center;
 	padding: 4em 0;
+	position: relative;
+	&:after{
+		position:absolute;
+		display: block;
+		content:'';
+		background-image: linear-gradient(to top, #5eccc4, #5eccc4 3%, #62d7b5);
+		height: 100%;
+		width: 100%;
+		top:0;
+		opacity: 0.7; 
+	}
 	.zone{
+		position:relative; 
+		z-index: 500;
 		.blog-title{
 			margin-bottom: 2.3875rem;
 			color: $white;
@@ -10,15 +24,18 @@ section.blog_section{
 		.slider{
 				h2{
 				color: $white;
-				margin-bottom: 2.125rem; 
+				margin-bottom: 2.125rem;
+				font-weight: 300; 
 			}
 		}
 		a.blog{
 			background:#fff;
-			color:#ec4f4f;
-			padding: 0.7375rem 1.9rem;
+			color:#5eccc4;
+			padding: 1.05rem 1.9rem;
 			border-radius: 6.25rem;
-			font-weight:bold;
+	    font-weight: bold;
+			display: inline-block;
+			font-size: 1.5625rem;
 		}
 	}
 }
