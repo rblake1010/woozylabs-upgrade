@@ -2707,10 +2707,10 @@ p {
   overflow: hidden;
   position: relative; }
   .navigationwrap.activeNav {
-    height: 187px; }
+    height: 93px; }
     @media (max-width: 31.25rem) {
       .navigationwrap.activeNav {
-        height: 167px; } }
+        height: 84px; } }
   .navigationwrap .navigation {
     z-index: 100;
     display: block; }
