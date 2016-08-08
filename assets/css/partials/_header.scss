@@ -11,12 +11,23 @@ header{
   @media (max-width: 750px){
 			background-position: 72% 75%;
   }
+  .wrap{
+  	
+  	@media (min-width: 108.75rem){
+			height: 100px;
+			background:rgba(0,0,0,0.2);
+			width: 100%;
+			position:absolute;
+			top:0;
+		}
+  }
 	.logo-title{
 		float: left;
 		margin:1.5625rem 0 0;
-			@media (max-width: 1360px){
-		
-			}
+		@media (min-width: 108.75rem){
+			position:relative;
+			z-index: 500;
+		}
 		.logo{
 			width: 10.9375rem;		
 			@media (max-width: 31.25rem){
@@ -27,6 +38,10 @@ header{
 	nav{
 		float: right;
 		margin:2.80625rem 0 0;
+		@media (min-width: 108.75rem){
+			position:relative;
+			z-index: 500;
+		}
 		@include fontSize(18px);
 		ul{
 			float: left;

@@ -14,6 +14,7 @@ section.lab_section{
 			clear: both;
 			padding:8.2875rem 0 0;
 			margin-left: 4.375rem;
+			padding-left:1.6875rem;
 			@media (max-width: 1200px){
 				@include span-columns(12);
 				margin:0;

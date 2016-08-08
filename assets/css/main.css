@@ -2687,7 +2687,8 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 2.0em !important; } }
   @media (max-width: 500px) {
     .large, h2 {
-      font-size: 1.5em; } }
+      font-size: 1.5em;
+      line-height: 28px !important; } }
 
 .bigger, h3 {
   font-size: 1.11em;
@@ -2744,9 +2745,20 @@ header {
   @media (max-width: 750px) {
     header {
       background-position: 72% 75%; } }
+  @media (min-width: 108.75rem) {
+    header .wrap {
+      height: 100px;
+      background: rgba(0, 0, 0, 0.2);
+      width: 100%;
+      position: absolute;
+      top: 0; } }
   header .logo-title {
     float: left;
     margin: 1.5625rem 0 0; }
+    @media (min-width: 108.75rem) {
+      header .logo-title {
+        position: relative;
+        z-index: 500; } }
     header .logo-title .logo {
       width: 10.9375rem; }
       @media (max-width: 31.25rem) {
@@ -2757,6 +2769,10 @@ header {
     margin: 2.80625rem 0 0;
     font-size: 18px;
     font-size: 1.125rem; }
+    @media (min-width: 108.75rem) {
+      header nav {
+        position: relative;
+        z-index: 500; } }
     header nav ul {
       float: left; }
       header nav ul li {
@@ -3031,7 +3047,8 @@ section.lab_section .zone {
     width: 40.29137%;
     clear: both;
     padding: 8.2875rem 0 0;
-    margin-left: 4.375rem; }
+    margin-left: 4.375rem;
+    padding-left: 1.6875rem; }
     section.lab_section .zone .region-left:last-child {
       margin-right: 0; }
     @media (max-width: 1200px) {

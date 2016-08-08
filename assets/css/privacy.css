@@ -124,6 +124,8 @@ header .social ul li a img {
 .policy {
   background: #ffffff;
   padding-bottom: 30px;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 .policy h1 {
   color: #000;
@@ -133,6 +135,8 @@ header .social ul li a img {
 }
 .policy p {
   color: #000;
+  margin: 0 0 6px;
+  line-height: 40px;
 }
 .policy ol {
   margin-left: 15px;
