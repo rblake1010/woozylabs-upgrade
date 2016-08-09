@@ -1,24 +1,24 @@
-section.recall_section{
+section.recall_section{	
 	.zone{
-		//display: flex;
-		//justify-content: space-around;
-		padding-bottom: 8.2875rem;
+		padding-bottom:8.2875rem;
+		padding-top:8.2875rem;
 		@media (max-width: 680px){
 		 display: block;
 		}
 		.region-left{
 			@include span-columns(5);
 			clear: both;
-			float: right;
 			padding:8.2875rem 0 0;
+			margin-left: 4.375rem;
 			@media (max-width: 1200px){
 				@include span-columns(12);
 				padding:0;
 				margin:0;
 			}
-			&.left-side{				
+			&.left-side{
+				
 		    img.what{
-		    	width: 264px;
+		    	width: 16.5rem;
 		    }
 			}
 			h2{
@@ -32,7 +32,7 @@ section.recall_section{
 				}
 				@media (max-width: 1200px){
 					text-align: center;
-					margin-bottom: 20px;
+					margin-bottom: 1.25rem;
 					padding:0px;
 				}
 			}
@@ -45,35 +45,25 @@ section.recall_section{
 					text-align: center;
 				}
 			}
-			a{
-				text-transform: uppercase;
-				color: $downy;
-				@media (max-width: 1200px){
-					text-align: center;
-					margin-bottom: 20px;
-					padding:0px;
-					display: block;
-				}
-			}
 		}
 		.region-right{
 			@include span-columns(9);
+			float: right;
 			clear: both;
-			margin-top: -200px;
+
+			margin-top: -12.5rem;
 			@media (max-width: 1200px){
 				@include span-columns(12);
-				padding:0;
 				margin:0;
+				padding:0;
 			}
 			.report-section{
-				//background: url(/assets/img/svg/graphic-b.svg) no-repeat;				
-				//height: 513px;
 				position:relative;
-				margin-top: -150px;
-					@media (max-width: 1200px){
-					margin-top: 0px;
-					width: 80%;
-					margin:0 auto;
+				margin-top: -200px;
+				@media (max-width: 1200px){
+				margin-top: 0px;
+				width: 80%;
+				margin:0 auto;
 				}
 			}
 		}

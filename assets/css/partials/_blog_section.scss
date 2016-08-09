@@ -29,13 +29,13 @@ section.blog_section{
 			}
 		}
 		a.blog{
-			background:#fff;
-			color:#5eccc4;
+			background:$white;
+			color:$downy;
 			padding: 1.05rem 1.9rem;
 			border-radius: 6.25rem;
 	    font-weight: bold;
 			display: inline-block;
-			font-size: 1.5625rem;
+			@include fontSize(25px);
 		}
 	}
 }

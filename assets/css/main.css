@@ -2726,6 +2726,7 @@ p {
         color: #fff;
         font-weight: lighter;
         font-size: 16px;
+        font-size: 1rem;
         text-decoration: none;
         font-weight: bold; }
       .navigationwrap .navigation ul li:hover {
@@ -2734,8 +2735,6 @@ p {
           color: #4e4e4e; }
 
 header {
-  /*background: $downy;*/
-  /*box-shadow: 0 6px 6px -5px rgba(6, 6, 6, 0.50);*/
   background: url(/assets/img/header-grp-full.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2745,7 +2744,7 @@ header {
   @media (max-width: 750px) {
     header {
       background-position: 72% 75%; } }
-  @media (min-width: 108.75rem) {
+  @media (min-width: 1740px) {
     header .wrap {
       height: 100px;
       background: rgba(0, 0, 0, 0.2);
@@ -2820,7 +2819,7 @@ header {
     cursor: pointer; }
     @media (max-width: 500px) {
       header img.down {
-        width: 50px; } }
+        width: 3.125rem; } }
   header .intro {
     float: left;
     display: block;
@@ -2835,11 +2834,12 @@ header {
         margin-left: 0; } }
     @media (max-width: 500px) {
       header .intro {
-        padding: 0 0 55px 0; } }
+        padding: 0 0 3.4375rem 0; } }
     header .intro h1 {
       margin: 1.5em 0 0.15em;
       letter-spacing: -0.5px;
-      color: #fff; }
+      color: #fff;
+      line-height: 1.0em; }
       @media (max-width: 750px) {
         header .intro h1 {
           font-size: 2.3em; } }
@@ -2866,87 +2866,9 @@ header {
       header .intro img.android {
         width: 1.625rem; } }
 
-section.what_section .zone {
+section.recall_section .zone {
   padding-bottom: 8.2875rem;
   padding-top: 8.2875rem; }
-  @media (max-width: 680px) {
-    section.what_section .zone {
-      display: block; } }
-  section.what_section .zone .region-left {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
-    clear: both;
-    padding: 8.2875rem 0 0;
-    margin-left: 4.375rem; }
-    section.what_section .zone .region-left:last-child {
-      margin-right: 0; }
-    @media (max-width: 1200px) {
-      section.what_section .zone .region-left {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        padding: 0;
-        margin: 0; }
-        section.what_section .zone .region-left:last-child {
-          margin-right: 0; } }
-    section.what_section .zone .region-left.left-side img.what {
-      width: 264px; }
-    section.what_section .zone .region-left h2 {
-      position: relative;
-      font-weight: 400;
-      font-size: 2.9375rem;
-      line-height: 3.3125rem;
-      margin-bottom: 1.64375rem; }
-      @media (max-width: 56.25rem) {
-        section.what_section .zone .region-left h2 {
-          padding-top: 1.5rem; } }
-      @media (max-width: 1200px) {
-        section.what_section .zone .region-left h2 {
-          text-align: center;
-          margin-bottom: 20px;
-          padding: 0px; } }
-    section.what_section .zone .region-left p {
-      font-size: 1.20em;
-      font-weight: 300;
-      letter-spacing: 0.1px;
-      margin-bottom: 2.5625rem; }
-      @media (max-width: 1200px) {
-        section.what_section .zone .region-left p {
-          text-align: center; } }
-  section.what_section .zone .region-right {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%;
-    float: right;
-    clear: both;
-    margin-top: -200px; }
-    section.what_section .zone .region-right:last-child {
-      margin-right: 0; }
-    @media (max-width: 1200px) {
-      section.what_section .zone .region-right {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        margin: 0;
-        padding: 0; }
-        section.what_section .zone .region-right:last-child {
-          margin-right: 0; } }
-    section.what_section .zone .region-right .report-section {
-      position: relative;
-      margin-top: -200px; }
-      @media (max-width: 1200px) {
-        section.what_section .zone .region-right .report-section {
-          margin-top: 0px;
-          width: 80%;
-          margin: 0 auto; } }
-
-section.recall_section .zone {
-  padding-bottom: 8.2875rem; }
   @media (max-width: 680px) {
     section.recall_section .zone {
       display: block; } }
@@ -2956,8 +2878,8 @@ section.recall_section .zone {
     margin-right: 2.35765%;
     width: 40.29137%;
     clear: both;
-    float: right;
-    padding: 8.2875rem 0 0; }
+    padding: 8.2875rem 0 0;
+    margin-left: 4.375rem; }
     section.recall_section .zone .region-left:last-child {
       margin-right: 0; }
     @media (max-width: 1200px) {
@@ -2971,7 +2893,7 @@ section.recall_section .zone {
         section.recall_section .zone .region-left:last-child {
           margin-right: 0; } }
     section.recall_section .zone .region-left.left-side img.what {
-      width: 264px; }
+      width: 16.5rem; }
     section.recall_section .zone .region-left h2 {
       position: relative;
       font-weight: 400;
@@ -2984,7 +2906,7 @@ section.recall_section .zone {
       @media (max-width: 1200px) {
         section.recall_section .zone .region-left h2 {
           text-align: center;
-          margin-bottom: 20px;
+          margin-bottom: 1.25rem;
           padding: 0px; } }
     section.recall_section .zone .region-left p {
       font-size: 1.20em;
@@ -2994,22 +2916,14 @@ section.recall_section .zone {
       @media (max-width: 1200px) {
         section.recall_section .zone .region-left p {
           text-align: center; } }
-    section.recall_section .zone .region-left a {
-      text-transform: uppercase;
-      color: #5eccc4; }
-      @media (max-width: 1200px) {
-        section.recall_section .zone .region-left a {
-          text-align: center;
-          margin-bottom: 20px;
-          padding: 0px;
-          display: block; } }
   section.recall_section .zone .region-right {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
+    float: right;
     clear: both;
-    margin-top: -200px; }
+    margin-top: -12.5rem; }
     section.recall_section .zone .region-right:last-child {
       margin-right: 0; }
     @media (max-width: 1200px) {
@@ -3018,15 +2932,102 @@ section.recall_section .zone {
         display: block;
         margin-right: 2.35765%;
         width: 100%;
-        padding: 0;
-        margin: 0; }
+        margin: 0;
+        padding: 0; }
         section.recall_section .zone .region-right:last-child {
           margin-right: 0; } }
     section.recall_section .zone .region-right .report-section {
       position: relative;
-      margin-top: -150px; }
+      margin-top: -200px; }
       @media (max-width: 1200px) {
         section.recall_section .zone .region-right .report-section {
+          margin-top: 0px;
+          width: 80%;
+          margin: 0 auto; } }
+
+section.report_section .zone {
+  padding-bottom: 8.2875rem; }
+  @media (max-width: 680px) {
+    section.report_section .zone {
+      display: block; } }
+  section.report_section .zone .region-left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    clear: both;
+    float: right;
+    padding: 8.2875rem 0 0; }
+    section.report_section .zone .region-left:last-child {
+      margin-right: 0; }
+    @media (max-width: 1200px) {
+      section.report_section .zone .region-left {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+        section.report_section .zone .region-left:last-child {
+          margin-right: 0; } }
+    section.report_section .zone .region-left.left-side img.what {
+      width: 16.5rem; }
+    section.report_section .zone .region-left h2 {
+      position: relative;
+      font-weight: 400;
+      font-size: 47px;
+      font-size: 2.9375rem;
+      line-height: 3.3125rem;
+      margin-bottom: 1.64375rem; }
+      @media (max-width: 56.25rem) {
+        section.report_section .zone .region-left h2 {
+          padding-top: 1.5rem; } }
+      @media (max-width: 1200px) {
+        section.report_section .zone .region-left h2 {
+          text-align: center;
+          margin-bottom: 1.25rem;
+          padding: 0px; } }
+    section.report_section .zone .region-left p {
+      font-size: 1.20em;
+      font-weight: 300;
+      letter-spacing: 0.1px;
+      margin-bottom: 2.5625rem; }
+      @media (max-width: 1200px) {
+        section.report_section .zone .region-left p {
+          text-align: center; } }
+    section.report_section .zone .region-left a {
+      text-transform: uppercase;
+      color: #5eccc4; }
+      @media (max-width: 1200px) {
+        section.report_section .zone .region-left a {
+          text-align: center;
+          margin-bottom: 20px;
+          padding: 0px;
+          display: block; } }
+  section.report_section .zone .region-right {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    clear: both;
+    margin-top: -200px; }
+    section.report_section .zone .region-right:last-child {
+      margin-right: 0; }
+    @media (max-width: 1200px) {
+      section.report_section .zone .region-right {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+        section.report_section .zone .region-right:last-child {
+          margin-right: 0; } }
+    section.report_section .zone .region-right .report-section {
+      position: relative;
+      margin-top: -9.375rem; }
+      @media (max-width: 1200px) {
+        section.report_section .zone .region-right .report-section {
           margin-top: 0px;
           width: 80%;
           margin: 0 auto; } }
@@ -3062,10 +3063,11 @@ section.lab_section .zone {
         section.lab_section .zone .region-left:last-child {
           margin-right: 0; } }
     section.lab_section .zone .region-left.left-side img.what {
-      width: 264px; }
+      width: 16.5rem; }
     section.lab_section .zone .region-left h2 {
       position: relative;
       font-weight: 400;
+      font-size: 47px;
       font-size: 2.9375rem;
       line-height: 3.3125rem;
       margin-bottom: 1.64375rem; }
@@ -3075,7 +3077,7 @@ section.lab_section .zone {
       @media (max-width: 1200px) {
         section.lab_section .zone .region-left h2 {
           text-align: center;
-          margin-bottom: 20px;
+          margin-bottom: 1.25rem;
           padding: 0px; } }
     section.lab_section .zone .region-left p {
       font-size: 1.20em;
@@ -3107,7 +3109,7 @@ section.lab_section .zone {
           margin-right: 0; } }
     section.lab_section .zone .region-right .report-section {
       position: relative;
-      margin-top: -200px; }
+      margin-top: -12.5rem; }
       @media (max-width: 1200px) {
         section.lab_section .zone .region-right .report-section {
           margin-top: 0px;
@@ -3127,18 +3129,20 @@ section.free_section .zone {
     align-self: center;
     text-align: center; }
     section.free_section .zone .region-middle h2 {
+      font-size: 60px;
       font-size: 3.75rem;
       font-weight: 300;
       margin-bottom: 2.9875rem; }
       @media (max-width: 750px) {
         section.free_section .zone .region-middle h2 {
+          font-size: 44px;
           font-size: 2.75rem; } }
       @media (max-width: 680px) {
         section.free_section .zone .region-middle h2 {
           margin-bottom: 1.9875rem; } }
     section.free_section .zone .region-middle img {
       display: inline-block;
-      margin-right: 8px; }
+      margin-right: 0.5rem; }
   @media (max-width: 430px) {
     section.free_section .zone .region-right {
       display: none; } }
@@ -3183,107 +3187,13 @@ section.team_section {
         section.team_section .zone .team_members .member p.name {
           font-size: 1.38em;
           font-weight: 300;
-          margin-bottom: 10px; }
+          margin-bottom: 0.625rem; }
           @media (max-width: 680px) {
             section.team_section .zone .team_members .member p.name {
               font-size: 1.20em; } }
         section.team_section .zone .team_members .member p.title {
           font-size: 1em;
           font-weight: 300; }
-
-section.who_section {
-  box-shadow: 0 6px 10px -5px rgba(6, 6, 6, 0.4);
-  -webkit-box-shadow: 0 6px 10px -5px rgba(6, 6, 6, 0.4);
-  position: relative; }
-  section.who_section .zone {
-    display: flex;
-    justify-content: space-around; }
-    @media (max-width: 680px) {
-      section.who_section .zone {
-        display: block; } }
-    section.who_section .zone .region-left {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%;
-      padding: 8.2875rem 0 0; }
-      section.who_section .zone .region-left:last-child {
-        margin-right: 0; }
-      @media (max-width: 42.5rem) {
-        section.who_section .zone .region-left {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          section.who_section .zone .region-left:last-child {
-            margin-right: 0; } }
-      section.who_section .zone .region-left.left-side {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; }
-        section.who_section .zone .region-left.left-side img.what {
-          width: 264px; }
-      section.who_section .zone .region-left h2 {
-        text-transform: uppercase;
-        position: relative; }
-        @media (max-width: 56.25rem) {
-          section.who_section .zone .region-left h2 {
-            padding-top: 1.5rem; } }
-        @media (max-width: 42.5rem) {
-          section.who_section .zone .region-left h2 {
-            text-align: center;
-            margin-bottom: 20px;
-            padding: 0px; } }
-        section.who_section .zone .region-left h2:after {
-          content: '';
-          display: block;
-          position: absolute;
-          width: 10.25rem;
-          height: 0.625rem;
-          background: linear-gradient(359deg, #5eccc4, #5eccc4 38%, #62d7b5);
-          bottom: -20px;
-          left: 0px; }
-          @media (max-width: 900px) {
-            section.who_section .zone .region-left h2:after {
-              width: 9.375rem; } }
-          @media (max-width: 42.5rem) {
-            section.who_section .zone .region-left h2:after {
-              display: none; } }
-    section.who_section .zone .region-right {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 57.35098%;
-      padding: 8.2875rem 0; }
-      section.who_section .zone .region-right:last-child {
-        margin-right: 0; }
-      @media (max-width: 42.5rem) {
-        section.who_section .zone .region-right {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          section.who_section .zone .region-right:last-child {
-            margin-right: 0; } }
-      section.who_section .zone .region-right .snippet {
-        display: flex;
-        margin-bottom: 1.875rem; }
-        @media (max-width: 500px) {
-          section.who_section .zone .region-right .snippet {
-            margin-bottom: 0; } }
-        section.who_section .zone .region-right .snippet img {
-          width: 7.8125rem; }
-          @media (max-width: 500px) {
-            section.who_section .zone .region-right .snippet img {
-              width: 6.25rem; } }
-        section.who_section .zone .region-right .snippet .blurb {
-          margin-left: 5.39375rem;
-          align-self: center; }
-          @media (max-width: 56.25rem) {
-            section.who_section .zone .region-right .snippet .blurb {
-              margin-left: 1.45625rem; } }
-          section.who_section .zone .region-right .snippet .blurb h3 {
-            margin-bottom: 0.6875rem; }
 
 section.blog_section {
   background: url(/assets/img/cleaning-banner.png) no-repeat;
@@ -3317,6 +3227,7 @@ section.blog_section {
       border-radius: 6.25rem;
       font-weight: bold;
       display: inline-block;
+      font-size: 25px;
       font-size: 1.5625rem; }
 
 section.contact_section {
@@ -3330,7 +3241,7 @@ section.contact_section {
   section.contact_section .zone p {
     font-size: 1.5625rem;
     font-weight: 300; }
-    @media (max-width: 900px) {
+    @media (max-width: 56.25rem) {
       section.contact_section .zone p {
         font-size: 1.20em; } }
   section.contact_section .zone a {
@@ -3341,6 +3252,7 @@ section.contact_section {
     border-radius: 6.25rem;
     font-weight: bold;
     display: inline-block;
+    font-size: 25px;
     font-size: 1.5625rem; }
 
 footer.footer_section {
@@ -3381,9 +3293,10 @@ footer.footer_section {
         text-align: center; } }
     footer.footer_section .zone .region-left .copyright {
       font-size: 18px;
+      font-size: 1.125rem;
       font-weight: 300;
       color: #a9a9a9;
-      margin-top: 25px;
+      margin-top: 1.5625rem;
       display: block; }
     footer.footer_section .zone .region-left img {
       display: block;
@@ -3396,11 +3309,11 @@ footer.footer_section {
       content: '';
       display: block;
       position: absolute;
-      width: 1px;
-      height: 224px;
+      width: 0.0625rem;
+      height: 14rem;
       border: solid 1px #464646;
-      top: 5px;
-      right: 5px; }
+      top: 0.3125rem;
+      right: 0.3125rem; }
       @media (max-width: 900px) {
         footer.footer_section .zone .region-left:after {
           display: none; } }
@@ -3428,16 +3341,16 @@ footer.footer_section {
         text-align: center; } }
     footer.footer_section .zone .region-middle img {
       display: inline-block;
-      margin-right: 3px; }
+      margin-right: 0.1875rem; }
     footer.footer_section .zone .region-middle:after {
       content: '';
       display: block;
       position: absolute;
-      width: 1px;
-      height: 224px;
+      width: 0.0625rem;
+      height: 14rem;
       border: solid 1px #464646;
-      top: 5px;
-      right: 5px; }
+      top: 0.3125rem;
+      right: 0.3125rem; }
       @media (max-width: 900px) {
         footer.footer_section .zone .region-middle:after {
           display: none; } }
@@ -3464,7 +3377,7 @@ footer.footer_section {
         text-align: center; } }
     footer.footer_section .zone .region-right img {
       display: inline-block;
-      margin-right: 10px; }
+      margin-right: 0.625rem; }
       @media (max-width: 500px) {
         footer.footer_section .zone .region-right img {
-          width: 64.95px; } }
+          width: 4.05938rem; } }

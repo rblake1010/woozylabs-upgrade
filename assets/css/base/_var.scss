@@ -12,9 +12,6 @@ $wild-sand: #f5f5f5;
 $silver-chalice: #a9a9a9;
 
 
-
-
-
 // font
 
 $primary-font:  'Montserrat', sans-serif;
@@ -43,8 +40,7 @@ $secondary-font: 'Biryani', sans-serif;
 }
 
 // Device Breakpoint Definitions
-$mobile: new-breakpoint(min-width 320px max-width 480px);
-$tablet: new-breakpoint(min-width 768px max-width 1024px);
+
 
 
 // Content Device Breakpoint Definitions
