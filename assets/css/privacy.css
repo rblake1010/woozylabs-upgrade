@@ -125,8 +125,14 @@ header .social ul li a img {
   background: #ffffff;
   padding-bottom: 30px;
   max-width: 75rem;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
+@media screen (max-width: 1200px) {
+  .policy{
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+} 
 .policy h1 {
   color: #000;
   padding-top: 18px;
