@@ -95,8 +95,8 @@ header{
   	bottom: 0%;
   	transform: translate(-50%, 50%);
   	cursor: pointer;
-  	@media (max-width: 500px){
-				width: 3.125rem;
+  	@media (max-width: 900px){
+				display: none;
   	}
 	}
 	.intro{

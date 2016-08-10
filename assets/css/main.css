@@ -2817,9 +2817,9 @@ header {
     bottom: 0%;
     transform: translate(-50%, 50%);
     cursor: pointer; }
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
       header img.down {
-        width: 3.125rem; } }
+        display: none; } }
   header .intro {
     float: left;
     display: block;
