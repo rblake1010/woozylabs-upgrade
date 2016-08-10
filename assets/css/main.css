@@ -2710,7 +2710,7 @@ p {
     height: 93px; }
     @media (max-width: 31.25rem) {
       .navigationwrap.activeNav {
-        height: 84px; } }
+        height: 82px; } }
   .navigationwrap .navigation {
     z-index: 100;
     display: block; }
