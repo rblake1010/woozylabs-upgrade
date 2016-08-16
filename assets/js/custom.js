@@ -16,13 +16,17 @@ $(document).ready(function(){
   var scrollPosition = $(document).scrollTop();
   
    if(scrollPosition <=0){
-      $('.down').show();
+    if($('body').hasClass('ipad') || $('body').hasClass('ipone')){
+      
+    }else{
+      //$('.down').show();
+    }
    }
 
  });
 
  $('.down').click(function() {
- $("html, body").animate({ scrollTop: $('.what_section').offset().top }, 1000); 
+ $("html, body").animate({ scrollTop: $('.recall_section').offset().top }, 1000); 
  $(this).hide();   
 });
 
@@ -35,7 +39,7 @@ $(document).ready(function(){
 			$('body').removeClass('ipad');
       $('body').removeClass('test');   		
     }
-    else if(winWidth <= 568){  //mobile
+    else if(winWidth <= 300){  //mobile
       $('body').addClass('iphone'); 
 			$('body').removeClass('ipad');   
     }
