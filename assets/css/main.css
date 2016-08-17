@@ -2847,6 +2847,8 @@ header {
         header .intro h1 {
           font-size: 1.4em;
           margin: 1.5em 0 0.50em; } }
+      header .intro h1 span {
+        font-weight: 400; }
     header .intro p {
       font-size: 1.30em;
       font-weight: 300;
